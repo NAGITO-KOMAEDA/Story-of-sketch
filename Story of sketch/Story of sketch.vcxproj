@@ -127,14 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1 этап.cpp" />
-    <ClCompile Include="2 этап.cpp" />
-    <ClCompile Include="3 этап.cpp" />
-    <ClCompile Include="4 этап.cpp" />
     <ClCompile Include="battle.cpp" />
+    <ClCompile Include="game_functions.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="shared_definitions.cpp" />
+    <ClCompile Include="monster_loader.cpp" />
+    <ClCompile Include="print_utils.cpp" />
+    <ClCompile Include="text_loader.cpp" />
+    <ClCompile Include="stage1.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="stage4.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="universe_loader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="funk.h" />
+    <ClInclude Include="game_functions.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="universe_loader.h" />
+    <ClInclude Include="print_utils.h" />
+    <ClInclude Include="monster_loader.h" />
+    <ClInclude Include="text_loader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

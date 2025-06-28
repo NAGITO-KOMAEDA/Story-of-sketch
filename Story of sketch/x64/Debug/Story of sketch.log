@@ -1,4 +1,7 @@
-﻿  3 этап.cpp
-  4 этап.cpp
-  Создание кода...
-  Story of sketch.vcxproj -> C:\Users\annak\PracticeITMO\Story of sketch\x64\Debug\Story of sketch.exe
+﻿  globals.cpp
+C:\Users\annak\PracticeITMO\Story of sketch\Story-of-sketch\Story of sketch\globals.h(6,8): warning C4099: Player: имя типа, ранее отображенное с помощью "class", теперь отображено с помощью "struct"
+  (компиляция исходного файла "globals.cpp")
+      C:\Users\annak\PracticeITMO\Story of sketch\Story-of-sketch\Story of sketch\game_functions.h(16,7):
+       см. объявление "Player"
+  
+  Story of sketch.vcxproj -> C:\Users\annak\PracticeITMO\Story of sketch\Story-of-sketch\x64\Debug\Story of sketch.exe
